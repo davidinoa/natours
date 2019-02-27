@@ -2,6 +2,8 @@ $color-primary: #55c57a;
 $color-primary-light: #7ed56f;
 $color-primary-dark: #28b485;
 
+$color-grey-dark: #777;
+
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +15,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.7;
-    color: #777;
+    color: $color-grey-dark;
     padding: 30px;
 }
 
@@ -141,7 +143,7 @@ body {
 
 .btn-white {
     background-color: #fff;
-    color: #777;
+    color: $color-grey-dark;
 }
 
 .btn::after {
